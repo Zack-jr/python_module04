@@ -8,11 +8,11 @@ def ft_stream_management():
     ID = input("Input Stream active. Enter archivist ID: ")
     status_report = input("Input Stream active. Enter status report: ")
 
-    sys.stdout.write(f"\n{{[}}STANDARD{{]}} Archive status from "
+    sys.stdout.write(f"\n[STANDARD] Archive status from "
                      f"{ID}: {status_report}\n")
-    sys.stderr.write("{{[}}ALERT{{[}} System diagnostic: "
+    sys.stderr.write("[ALERT] System diagnostic: "
                      "Communication channels verified\n")
-    sys.stdout.write("{[}STANDARD{]} Data transmission complete\n")
+    sys.stdout.write("[STANDARD] Data transmission complete\n")
 
     print("\nThree-channel communication test successful.")
 

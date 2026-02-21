@@ -8,9 +8,9 @@ def ft_archive_creation():
         print("Storage unit created successfully...✅\n")
 
         print("Inscribing preservation data...")
-        entry1 = "{[}ENTRY 001{]} New quantum algorithm discovered"
-        entry2 = "{[}ENTRY 002{]} Efficiency increased by 347%"
-        entry3 = "{[}ENTRY 003{]} Archived by Data Archivist trainee"
+        entry1 = "[ENTRY 001] New quantum algorithm discovered"
+        entry2 = "[ENTRY 002] Efficiency increased by 347%"
+        entry3 = "[ENTRY 003] Archived by Data Archivist trainee"
 
         file.write(f"{entry1}\n")
         print(f"{entry1}")
